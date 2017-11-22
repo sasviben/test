@@ -11,6 +11,7 @@ namespace test
         static void Main(string[] args)
         {
             Console.WriteLine("Poruka");
+            Console.WriteLine("Message");
             string unos = Console.ReadLine();
             try
             {
@@ -21,8 +22,9 @@ namespace test
             {
                 Console.WriteLine(e);
             }
+            Console.ReadKey();
         }
-        Console.ReadKey();
+        
         public static double KvadratniKorijen(double broj)
         {
             return Math.Sqrt(broj);
