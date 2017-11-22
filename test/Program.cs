@@ -10,19 +10,19 @@ namespace test
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Poruka");
             string unos = Console.ReadLine();
             try
             {
                 double broj = double.Parse(unos);
                 Console.WriteLine(KvadratniKorijen(broj));
-                Console.ReadKey();
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
             }
         }
-
+        Console.ReadKey();
         public static double KvadratniKorijen(double broj)
         {
             return Math.Sqrt(broj);
