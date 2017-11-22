@@ -13,6 +13,8 @@ namespace test
             Console.WriteLine("Poruka");
             Console.WriteLine("Message");
             Console.WriteLine("Werbung");
+
+            Console.WriteLine("Upiši neki broj za koji želiš kvadratni korijen: ");
             string unos = Console.ReadLine();
             try
             {
@@ -23,7 +25,6 @@ namespace test
             {
                 Console.WriteLine(e);
             }
-            Console.ReadKey();
         }
         
         public static double KvadratniKorijen(double broj)
