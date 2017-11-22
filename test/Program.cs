@@ -12,6 +12,7 @@ namespace test
         {
             Console.WriteLine("Poruka");
             Console.WriteLine("Message");
+            Console.WriteLine("Werbung");
             string unos = Console.ReadLine();
             try
             {
