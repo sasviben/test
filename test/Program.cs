@@ -15,6 +15,7 @@ namespace test
             {
                 double broj = double.Parse(unos);
                 Console.WriteLine(KvadratniKorijen(broj));
+                Console.ReadKey();
             }
             catch (Exception e)
             {
