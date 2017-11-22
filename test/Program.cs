@@ -12,5 +12,11 @@ namespace test
         {
 
         }
+
+        public static double KvadratniKorijen(double broj)
+        {
+
+            return Math.Sqrt(broj);
+        }
     }
 }
