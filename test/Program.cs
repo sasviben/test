@@ -27,6 +27,7 @@ namespace test
             {
                 Console.WriteLine(e);
             }
+            //ceka dok se ne pritisne neka tipka
             Console.ReadKey();
         }
         
