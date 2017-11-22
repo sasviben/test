@@ -27,6 +27,7 @@ namespace test
             {
                 Console.WriteLine(e);
             }
+            Console.ReadKey();
         }
         
         public static double KvadratniKorijen(double broj)
